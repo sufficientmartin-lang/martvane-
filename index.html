@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MARTVANE — Modern Menswear</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#">MART<span>VANE</span></a>
+  <button class="menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav><a href="#new">New Arrivals</a><a href="#collection">Collection</a><a href="#story">Our Story</a><a href="#contact">Contact</a></nav>
+  <a class="shop" href="#collection">SHOP NOW →</a>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">MARTVANE / 2026 COLLECTION</p>
+    <h1>Dress with<br><i>purpose.</i></h1>
+    <p class="lead">Modern menswear designed for confidence, simplicity and a timeless presence.</p>
+    <a class="button" href="#collection">Explore Collection</a>
+  </div>
+  <div class="hero-art"><div class="mv">MV</div><small>EDITORIAL<br>LOOK 01</small></div>
+</section>
+
+<section class="statement" id="new">
+  <p class="eyebrow">THE MARTVANE STANDARD</p>
+  <h2>Quiet luxury.<br>Strong identity.</h2>
+  <p>Clean silhouettes, considered details and pieces made for everyday moments and defining occasions.</p>
+</section>
+
+<section class="collection" id="collection">
+  <div class="heading"><div><p class="eyebrow">FEATURED</p><h2>Selected pieces</h2></div></div>
+  <div class="products">
+    <article><div class="product p1"><b>01</b></div><h3>Signature Overshirt</h3><p>Structured cotton · Onyx</p><strong>₦85,000</strong></article>
+    <article><div class="product p2"><b>02</b></div><h3>Tailored Essential</h3><p>Premium blend · Sand</p><strong>₦120,000</strong></article>
+    <article><div class="product p3"><b>03</b></div><h3>MV Classic Shirt</h3><p>Soft cotton · Ivory</p><strong>₦65,000</strong></article>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="monogram">M</div>
+  <div><p class="eyebrow">OUR STORY</p><h2>Made for the man who knows who he is.</h2>
+  <p>MARTVANE is a contemporary menswear label built around a simple idea: style should feel personal, not performative.</p>
+  <p>Refined essentials with a confident African spirit and a global point of view.</p></div>
+</section>
+
+<section class="contact" id="contact">
+  <p class="eyebrow">STAY IN THE LOOP</p><h2>Be first to know.</h2>
+  <p>New drops, collections and MARTVANE stories.</p>
+  <form onsubmit="join(event)"><input type="email" placeholder="Your email address" required><button>SUBSCRIBE</button></form>
+  <small id="msg"></small>
+</section>
+
+<footer><a class="logo" href="#">MART<span>VANE</span></a><p>© 2026 MARTVANE. All rights reserved.</p><div><a href="#">Instagram</a> · <a href="#">TikTok</a> · <a href="#">WhatsApp</a></div></footer>
+<script src="script.js"></script>
+</body></html>
