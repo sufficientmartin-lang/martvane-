@@ -1,0 +1,1 @@
+function join(e){e.preventDefault();document.getElementById('msg').textContent='Welcome to MARTVANE.';e.target.reset();}
